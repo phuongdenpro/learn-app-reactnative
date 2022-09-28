@@ -19,7 +19,7 @@ const App = () => {
     setTaskList([...taskList, task]);
   };
   const handleDeleteTask = (index) => {
-    Alert.alert("Thông báo !", "Bạn có chắc chắn muốn xóa???", [
+    Alert.alert("Thông báo !", "Bạn có chắc chắn muốn xóa?", [
       {
         text: "OK",
         onPress: () => {
